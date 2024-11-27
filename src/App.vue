@@ -5,18 +5,19 @@
         <div class="nav-links">
           <router-link to="/" class="nav-link">Inicio</router-link>
           <router-link to="/about" class="nav-link">Acerca de</router-link>
+          <router-link to="/spaces" class="nav-link">Espacios</router-link>
         </div>
       </div>
-    </nav>
-    
+    </nav>   
     <main class="container main-content">
       <router-view></router-view>
     </main>
+    <TheFooter />
   </div>
 </template>
 
 <script setup>
-// Component logic here
+import TheFooter from './components/TheFooter.vue'
 </script>
 
 <style>
