@@ -4,7 +4,6 @@ import App from './App.vue'
 import router from './router'
 import './assets/styles/main.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import { BootstrapVue3 } from 'bootstrap-vue-3'
 
 // Bootstrap CSS y JS
 import 'bootstrap/dist/css/bootstrap.min.css'
