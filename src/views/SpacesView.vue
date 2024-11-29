@@ -19,7 +19,7 @@
 
 
 <script setup>
-// Component logic here
+
 </script>
 
 <style>
