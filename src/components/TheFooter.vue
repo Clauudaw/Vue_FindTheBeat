@@ -1,5 +1,5 @@
 <template>
-<footer class="footer text-center">
+  <footer class="footer text-center">
     <div class="container d-flex flex-column justify-content-center align-items-center h-100">
       <p>© 2024-2025 Find The Beat, Todos los derechos reservados.</p>
       <ul class="list-unstyled d-flex justify-content-center">
@@ -10,8 +10,11 @@
     </div>
   </footer>
 </template>
+
 <style lang="scss" scoped>
 .footer {
   background-color: #8b8b8b;
   padding: 1rem 0;
-}</style>
+  margin-top: auto; 
+}
+</style>

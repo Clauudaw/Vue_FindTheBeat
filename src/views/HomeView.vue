@@ -10,7 +10,6 @@
 
   <!-- Galería de Espacios -->
   <section id="spaces" class="container my-5">
-    <h2 class="text-center mb-4">Espacios disponibles</h2>
     <div class="row g-4">
       <!-- Espacio 1 -->
       <div class="col-md-4">
@@ -47,21 +46,12 @@
       </div>
     </div>
   </section>
-
-  <!-- Formulario de suscripción -->
-  <section class="container my-5 text-center">
-    <h2>Suscríbete a nuestro Newsletter</h2>
-    <p>Recibe las últimas novedades sobre nuestros espacios, precios y ofertas especiales.</p>
-    <div class="d-flex justify-content-center">
-      <input type="email" class="form-control w-50" placeholder="Tu correo electrónico" aria-label="Correo electrónico">
-      <button class="btn btn-primary ms-2">Suscribirme</button>
-    </div>
-  </section>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
+import MainButton from '../components/MainButton.vue';
 </script>
+
 
 <style>
 .title {
@@ -79,4 +69,10 @@
 .counter-section {
   margin-top: 1.5rem;
 }
+
+.hero-section {
+  margin-top: 3.65em;
+}
+
+
 </style>

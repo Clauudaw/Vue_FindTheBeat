@@ -2,7 +2,7 @@
   <div class="card">
     <h1 class="title">Acerca de</h1>
     <p class="description">
-      Esta es la página Acerca de. Aquí puedes añadir información sobre tu proyecto.
+      Esta es la página Acerca de.
     </p>
   </div>
 </template>
@@ -22,4 +22,6 @@
 .description {
   color: #666;
 }
+
+
 </style>
